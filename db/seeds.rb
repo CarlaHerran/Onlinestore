@@ -2,6 +2,8 @@
 user1 = User.create(name: 'Juan Perez', email: 'juan@gmail.com', admin: false, seller: false, password: 'hola')
 user2 = User.create(name: 'Pablito Robles', email: 'pablito@gmail.com', admin: false, seller: false, password: 'hola')
 user3 = User.create(name: 'Maria Benito', email: 'lamari@gmail.com', admin: false, seller: false, password: 'hola')
+user4 = User.create(name: 'Carla', email: 'carla.herran@gmail.com', admin: true, seller: false, password: 'hola')
+user5 = User.create(name: 'Carlis', email: 'c', admin: true, seller: true, password: 'c')
 
 
 dept1 = Dept.create(name: 'Fruits')
